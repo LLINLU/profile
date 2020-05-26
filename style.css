@@ -1,0 +1,98 @@
+body {
+  margin: 30px atuo;
+  color:#6f5e74d4;
+}
+
+div{
+  padding:auto auto;
+  margin:auto auto;
+}
+
+.container{
+  margin-top:40px;
+  text-align:center;
+}
+.container h1 {
+ color:powderblue;
+ margin-bottom:25px;
+ font-family: 'Chelsea Market', cursive;
+ text-align:center;
+}
+.container > img{
+  border-radius: 20px;
+  opacity:0.9;
+  height:270px;
+  border-radius:50%;
+}
+
+
+ul {
+
+  border:solid 6px #ffeeee;
+  padding: 16px 32px;
+  border-radius: 10px;
+  max-width:480px;
+  margin:32px auto;
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+ ul {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 540px) {
+.social-links{
+  margin: 0 auto;
+  padding:12px 0 0 0;
+  margin:auto auto;
+  text-align:center;
+}
+}
+
+li{
+  font-size:1em;
+  color:gray;
+  list-style-type: none;
+  margin-bottom:16px;
+  font-family: Lato;
+}
+
+button{
+  padding:8px 12px;
+  background-color: #fcdee6;
+  border-radius: 5px;
+  font-size: 16px;
+  margin:8px 0;
+  border-color: #fcdce0;
+  color:gray;
+}
+
+button:hover{
+opacity:0.8;
+}
+
+button:focus{
+  outline:0;
+  font-size:18px;
+}
+
+.social-links{
+  margin: 0 auto;
+  padding:16px 0 0 0;
+  margin:auto 30%;
+}
+
+.social-links a{
+  padding-right:16px;
+  transition: all .2s linear;
+}
+
+.social-links a:hover {
+opacity:0.8;
+}
+
+.social-links a img:hover {
+ transform: scale(1.3,1.3);
+}
