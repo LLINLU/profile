@@ -1,6 +1,19 @@
+
+html{
+  background-image: url('images/backround-img.png');
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ background-attachment: fixed;
+
+}
 body {
-  margin: 30px atuo;
-  color:#6f5e74d4;
+  margin: 30px;
+  /*color:#6f5e74d4;
+  background-image: url('images/backround-img.png');
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: 50% 50%;*/
 }
 
 div{
@@ -13,18 +26,27 @@ div{
   text-align:center;
 }
 .container h1 {
- color:powderblue;
+ color:#87798B;
  margin-bottom:25px;
+ margin-top:64px;
  font-family: 'Chelsea Market', cursive;
  text-align:center;
 }
 .container > img{
-  border-radius: 20px;
+   margin-top:16px;
   opacity:0.9;
-  height:270px;
+  height:160px;
+  width:160px;
   border-radius:50%;
+  object-fit: cover;
+  opacity:0.8;
 }
 
+#position {
+  margin-top:12px;
+  font-family: Lato;
+  color:#555;
+}
 
 ul {
 
@@ -53,7 +75,7 @@ ul {
 
 li{
   font-size:1em;
-  color:gray;
+  color:#56485a;
   list-style-type: none;
   margin-bottom:16px;
   font-family: Lato;
@@ -61,12 +83,13 @@ li{
 
 button{
   padding:8px 12px;
-  background-color: #fcdee6;
+  background-color: #fcdce09c;
   border-radius: 5px;
   font-size: 16px;
   margin:8px 0;
   border-color: #fcdce0;
   color:gray;
+  cursor:pointer;
 }
 
 button:hover{
